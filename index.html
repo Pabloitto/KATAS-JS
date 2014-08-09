@@ -4,23 +4,37 @@
   <meta charset="utf-8">
   <title>Katas TDD</title>
   <link rel="stylesheet" href="katas/katas.main.css">
+  <link rel="stylesheet" href="katas/layout.css">
 </head>
 <body>
-	<table id="tblKatas" class="bordered">
-		<thead>
-			<tr>
-				<th>#</th>
-				<th>Kata name</th>
-				<th>Run Tests</th>
-				<th>Test Code</th>
-				<th>Kata Code</th>
-			</tr>
-		</thead>
-		<tbody>
 
-		</tbody>
-	</table>
-	<iframe frameborder="0" id="kataContent" seamless="seamless" src="" height="800" width="800"></iframe>
+	<div id="wrapper">
+        <div id="header">
+        	<p align="center" style="color:White;padding-top:8px;font-size:medium;">
+                Javascript Laboratory based in TDD using QUnit Framework.
+            </p>
+        </div>
+        <div id="content">
+           	<table id="tblKatas" class="bordered">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Kata name</th>
+						<th>Run Tests</th>
+						<th>Test Code</th>
+						<th>Kata Code</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+			<iframe style="display:none;" frameborder="0" id="kataContent" seamless="seamless" src="" height="100%" width="100%"></iframe>
+        </div>
+        <div id="footer">
+            <p align="center" style="color:White;padding-top:8px;font-size:medium;">
+                Created By Juan Pablo Itto Dominguez.
+            </p>
+        </div>
+	</div>
 </body>
 <script src="jquery/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="katas/katas.main.js"></script>

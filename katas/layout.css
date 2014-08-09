@@ -1,0 +1,39 @@
+﻿html,
+body 
+{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper 
+{
+	min-height:100%;
+	position:relative;
+}
+#header 
+{
+	background-color: #0099CC;
+	height:100px;
+	border-bottom: 1px solid;
+	color:White;
+	padding-top:8px;
+	font-size:medium;
+}
+#content 
+{
+	padding:5%;
+	/* Height of the footer element */
+	padding-bottom:110px;   
+}
+#footer 
+{
+	height:60px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color: #66CCFF;
+	border-top: 1px solid; 
+	color: #222;
+	font-size:15px;
+}

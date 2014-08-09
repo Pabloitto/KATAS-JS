@@ -1,6 +1,4 @@
 body {
-    width: 600px;
-    margin: 40px auto;
     font-family: 'trebuchet MS', 'Lucida sans', Arial;
     font-size: 14px;
     color: #444;
@@ -88,5 +86,4 @@ table {
 }
 iframe#kataContent{
 	padding-top:5%;
-	margin-left:-15%;
 }

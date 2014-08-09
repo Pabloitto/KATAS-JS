@@ -40,6 +40,7 @@
 			return false;
 		}
 		function showTest(src){
+			kataContent.show();
 			src = getSrcAvoidCache(src);
 			kataContent.attr("src",src);
 		}
