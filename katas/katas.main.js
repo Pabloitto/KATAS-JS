@@ -40,7 +40,11 @@
 			return false;
 		}
 		function showTest(src){
+			src = getSrcAvoidCache(src);
 			kataContent.attr("src",src);
+		}
+		function getSrcAvoidCache(src){
+			return src + "?d="+new Date().getTime();
 		}
 		function createTableKatas(){
 			var tBody = tblKatas.find("tbody"),
