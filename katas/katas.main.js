@@ -8,21 +8,21 @@
 				{
 					"Name" : "Bowling",
 					"SrcTest" : "index-bowling.html",
-					"SrcCode" : "katas\\bowiling-kata\\bowling.js",
-					"SrcTestCode" : "katas\\bowiling-kata\\bowling-test.js"
+					"SrcCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/bowiling-kata/bowling.js",
+					"SrcTestCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/bowiling-kata/bowling-test.js"
 				},
 				{
 					"Name" : "Hanoi Towers",
 					"SrcTest" : "index-hanoi.html",
-					"SrcCode" : "katas\\hanoi-kata\\hanoi.js",
-					"SrcTestCode" : "katas\\hanoi-kata\\hanoi-test.js"
+					"SrcCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/hanoi-kata/hanoi.js",
+					"SrcTestCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/hanoi-kata/hanoi-test.js"
 
 				},
 				{
 					"Name" : "Game of Life",
 					"SrcTest" : "index-gameoflife.html",
-					"SrcCode" : "katas\\gameoflife-kata\\gameoflife.js",
-					"SrcTestCode" : "katas\\gameoflife-kata\\gameoflife-test.js"
+					"SrcCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/gameoflife-kata/gameoflife.js",
+					"SrcTestCode" : "https://github.com/Pabloitto/KATAS-JS/blob/master/katas/gameoflife-kata/gameoflife-test.js"
 				}
 			];
 
@@ -55,7 +55,7 @@
 				html = '';
 			for(;i<t;i++){
 				item = KATAS[i];
-				html += "<tr><td>"+(i + 1)+"</td><td>"+item.Name+"</td><td><a class='testlink' href='"+item.SrcTest+"'>Run tests</a></td><td><a class='codelink' href='"+item.SrcCode+"' target='blank'>Download Code</a></td><td><a class='codelink' href='"+item.SrcTestCode+"' target='blank'>Download Test Code</a></td></tr>";
+				html += "<tr><td>"+(i + 1)+"</td><td>"+item.Name+"</td><td><a class='testlink' href='"+item.SrcTest+"'>Run tests</a></td><td><a class='codelink' href='"+item.SrcCode+"' target='blank'>View Code</a></td><td><a class='codelink' href='"+item.SrcTestCode+"' target='blank'>View Test Code</a></td></tr>";
 			}
 			tBody.append(html);
 		}
