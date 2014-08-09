@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Katas TDD</title>
+  <link rel="stylesheet" href="katas/katas.main.css">
+</head>
+<body>
+	<table id="tblKatas" class="bordered">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Kata name</th>
+				<th>Run Tests</th>
+				<th>Test Code</th>
+				<th>Kata Code</th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+	<iframe frameborder="0" id="kataContent" seamless="seamless" src="" height="800" width="800"></iframe>
+</body>
+<script src="jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="katas/katas.main.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+  		window.KataMain().init();
+  	});
+</script>
+</html>
