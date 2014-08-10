@@ -32,8 +32,11 @@ body
 	position:absolute;
 	bottom:0;
 	left:0;
-	background-color: #66CCFF;
+	background-color: #0099CC;
 	border-top: 1px solid; 
 	color: #222;
 	font-size:15px;
+	color:White;
+	padding-top:8px;
+	font-size:medium;
 }
